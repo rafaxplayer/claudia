@@ -1,0 +1,389 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: claudia\n"
+"POT-Creation-Date: 2020-02-12 09:22+0100\n"
+"PO-Revision-Date: 2019-11-18 10:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:18
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:21
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:21
+msgid "WordPress"
+msgstr ""
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:27
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: footer.php:27 template-parts/header-image.php:13
+msgid "claudia"
+msgstr ""
+
+#: footer.php:27
+msgid " JRS "
+msgstr ""
+
+#: functions.php:53
+msgid "Primary"
+msgstr ""
+
+#: functions.php:126
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:128
+msgid "Add widgets here."
+msgstr ""
+
+#: header.php:33
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:41 sidebar.php:17
+msgid "widgets button"
+msgstr ""
+
+#: inc/customizer/customizer.php:22
+msgid "Site title & Description text color"
+msgstr ""
+
+#: inc/customizer/customizer.php:50
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:65
+msgid "Color header text"
+msgstr ""
+
+#: inc/customizer/customizer.php:66
+msgid "Set header texts colors, requires having set a header image or video"
+msgstr ""
+
+#: inc/customizer/customizer.php:75
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:87
+msgid "Header title"
+msgstr ""
+
+#: inc/customizer/customizer.php:88
+msgid "Set header title, requires having set a header image or video"
+msgstr ""
+
+#: inc/customizer/customizer.php:99
+msgid "Header subttile"
+msgstr ""
+
+#: inc/customizer/customizer.php:100
+msgid "Set header subtitle, requires having set a header image or video"
+msgstr ""
+
+#: inc/customizer/customizer.php:109
+msgid "Show Header on Pages"
+msgstr ""
+
+#: inc/customizer/customizer.php:120
+msgid "Show Header on Posts"
+msgstr ""
+
+#: inc/customizer/customizer.php:131
+msgid "Show Header on Categories page"
+msgstr ""
+
+#: inc/customizer/customizer.php:139
+msgid "Blog options"
+msgstr ""
+
+#: inc/customizer/customizer.php:144 index.php:76
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/customizer.php:150
+msgid "Blog title"
+msgstr ""
+
+#: inc/customizer/customizer.php:151
+msgid "Set title for blog page"
+msgstr ""
+
+#: inc/customizer/customizer.php:163
+msgid "Show Categories selector"
+msgstr ""
+
+#: inc/customizer/customizer.php:176
+msgid "Show tags selector"
+msgstr ""
+
+#: inc/customizer/customizer.php:184
+msgid "Social Network"
+msgstr ""
+
+#: inc/customizer/customizer.php:196
+msgid "Url for facebook link "
+msgstr ""
+
+#: inc/customizer/customizer.php:209
+msgid "Url for twitter link "
+msgstr ""
+
+#: inc/customizer/customizer.php:222
+msgid "Url for instagram link"
+msgstr ""
+
+#: inc/customizer/customizer.php:230
+msgid "Url for youtube link"
+msgstr ""
+
+#: inc/customizer/customizer.php:243
+msgid "Url for linkedin link"
+msgstr ""
+
+#: inc/customizer/customizer.php:256
+msgid "Url for pinterest link"
+msgstr ""
+
+#: inc/customizer/customizer.php:264
+msgid "Select an Option"
+msgstr ""
+
+#: inc/customizer/customizer.php:264
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer/customizer.php:264
+msgid "No"
+msgstr ""
+
+#: inc/template-functions.php:53
+msgid "Facebook"
+msgstr ""
+
+#: inc/template-functions.php:56
+msgid "Twitter"
+msgstr ""
+
+#: inc/template-functions.php:59
+msgid "Instagam"
+msgstr ""
+
+#: inc/template-functions.php:62
+msgid "Linkedin"
+msgstr ""
+
+#: inc/template-functions.php:65
+msgid "Pinterest"
+msgstr ""
+
+#: inc/template-functions.php:118
+msgid "says:"
+msgstr ""
+
+#. translators: %1$s: comment date, %2$s: comment time.
+#: inc/template-functions.php:124
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: index.php:28
+msgid "Select category"
+msgstr ""
+
+#. translators: %s: Author name.
+#: index.php:65
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#. translators: %s: Search for.
+#: index.php:73
+#, php-format
+msgid "Search for : %s"
+msgstr ""
+
+#. translators: %s: Posts Day.
+#: index.php:81
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#. translators: %s: Posts Month.
+#: index.php:85
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#. translators: %s: Posts Year.
+#: index.php:89
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: index.php:92
+msgid "Asides"
+msgstr ""
+
+#: index.php:95
+msgid "Images"
+msgstr ""
+
+#: index.php:98
+msgid "Videos"
+msgstr ""
+
+#: index.php:101
+msgid "Quotes"
+msgstr ""
+
+#: index.php:104
+msgid "Links"
+msgstr ""
+
+#: index.php:107
+msgid "Archives"
+msgstr ""
+
+#: index.php:116
+msgid "Select tags"
+msgstr ""
+
+#: searchform.php:9
+msgid "Search"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content-single.php:50
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:39
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/header-image.php:12
+msgid "A theme for WordPress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A clean theme perfect for personal blog or business where images are not "
+"important."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Juan Rafael Simarro"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://juanrafaelsimarro.com/"
+msgstr ""
