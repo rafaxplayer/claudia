@@ -5,7 +5,7 @@ Tags:  blog, custom-background, custom-logo, custom-menu, threaded-comments, tra
 Requires at least: 5.2
 Requires PHP: 7.0
 Tested up to: 4.8
-Stable tag: 1.0.4
+Stable tag: 1.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DFZBWTFKLCWYQ&source=url
@@ -32,6 +32,11 @@ claudia theme screenshot images are licensed under [CC0].
 == Upgrade Notice ==
 
 First release.
+
+== Changelog ==
+
+= 1.1 - Feb 25 2020 =
+* Remove panel of widgets
 
 == Changelog ==
 
