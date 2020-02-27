@@ -39,7 +39,6 @@ First release.
 * Remove panel of widgets
 
 == Changelog ==
-
 = 1.0.4 - Feb 13 2020 =
 * Code bug fixes
 
