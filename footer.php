@@ -27,9 +27,9 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'claudia' ), __('claudia','claudia'), '<a href="https://juanrafaelsimarro.com/">'. __ ( ' JRS ' , 'claudia' ) .'</a>' );
 				?>
 		</div><!-- .site-info -->
-		<div id="upp-button">
-		<?php echo __('UPP','claudia'); ?>
-	</div><!-- .upp-button -->
+		<a href="#" id="upp-button">
+			<?php echo __('UP','claudia'); ?>
+		</a><!-- .upp-button -->
 		
 	</footer><!-- #colophon -->
 </div><!-- #page -->

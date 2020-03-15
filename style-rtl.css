@@ -4,7 +4,7 @@ Theme URI:
 Author: Juan Rafael Simarro
 Author URI: https://juanrafaelsimarro.com/
 Description: A clean theme perfect for personal blog or business where images are not important.
-Version: 1.1
+Version: 1.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: claudia
@@ -455,7 +455,7 @@ a:active {
         transition: opacity 2s;
     }
     .main-navigation ul ul li:hover>ul,
-    .main-navigation ul ul li.focus>ul {
+    .main-navigation ul ul li:focus>ul {
         right: 100%;
         opacity: 1;
     }
@@ -466,7 +466,7 @@ a:active {
         letter-spacing: inherit;
     }
     .main-navigation ul li:hover>ul,
-    .main-navigation ul li.focus>ul {
+    .main-navigation ul li:focus>ul {
         right: auto;
         opacity: 1;
     }

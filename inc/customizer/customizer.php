@@ -19,9 +19,10 @@ function claudia_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
-	$wp_customize->get_control( 'header_textcolor' )->label = __('Site title & Description text color','claudia');
-	$wp_customize->get_section( 'header_image' )->panel = 'claudia_theme_panel';
-	$wp_customize->get_section( 'colors' )->panel = 'claudia_theme_panel';
+	$wp_customize->get_setting( 'header_textcolor' )->default 	= '#fbf6e5';
+	$wp_customize->get_control( 'header_textcolor' )->label 	= __('Site title & Description text color','claudia');
+	$wp_customize->get_section( 'header_image' )->panel 		= 'claudia_theme_panel';
+	$wp_customize->get_section( 'colors' )->panel 				= 'claudia_theme_panel';
 
 	if ( isset( $wp_customize->selective_refresh ) ) {
 
@@ -295,7 +296,7 @@ function claudia_customize_partial_blogdescription() {
  * @return void
  */
 function claudia_customize_partial_header_title() {
-	return get_theme_mod('header_title');
+	return esc_html(get_theme_mod('header_title'));
 }
 
 /**
@@ -304,7 +305,7 @@ function claudia_customize_partial_header_title() {
  * @return void
  */
 function claudia_customize_partial_header_subtitle() {
-	return get_theme_mod('header_subtitle');
+	return esc_html(get_theme_mod('header_subtitle'));
 }
 
 /**

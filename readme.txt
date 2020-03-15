@@ -5,7 +5,7 @@ Tags:  blog, custom-background, custom-logo, custom-menu, threaded-comments, tra
 Requires at least: 5.2
 Requires PHP: 7.0
 Tested up to: 4.8
-Stable tag: 1.1
+Stable tag: 1.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DFZBWTFKLCWYQ&source=url
@@ -27,7 +27,7 @@ Claudia se distribuye bajo los términos de la GNU GPL
 
 claudia theme screenshot images are licensed under [CC0].
 
-* Header photography, Licence: Creative Commons Zero Source: https://pxhere.com/es/photo/1418690
+* Header photography, Licence: Creative Commons Zero Source: https://pxhere.com/es/photo/2620
 
 == Upgrade Notice ==
 
@@ -58,4 +58,4 @@ First release.
 
 * Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
-* Header photography, Licence: Creative Commons Zero Source: https://pxhere.com/es/photo/1418690
+* Header photography, Licence: Creative Commons Zero Source: https://pxhere.com/es/photo/2620

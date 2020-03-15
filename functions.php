@@ -9,9 +9,9 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 $claudia_theme = wp_get_theme();
-define('THEME_PATH',get_template_directory());
-define('THEME_PATH_URI',get_template_directory_uri());
-define('THEME_VERSION',$claudia_theme->get('Version'));
+define('CLAUDIA_THEME_PATH',get_template_directory());
+define('CLAUDIA_THEME_PATH_URI',get_template_directory_uri());
+define('CLAUDIA_THEME_VERSION',$claudia_theme->get('Version'));
 
 if ( ! function_exists( 'claudia_setup' ) ) :
 	/**
@@ -28,7 +28,7 @@ if ( ! function_exists( 'claudia_setup' ) ) :
 		 * If you're building a theme based on claudia, use a find and replace
 		 * to change 'claudia' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'claudia', THEME_PATH . '/languages' );
+		load_theme_textdomain( 'claudia', CLAUDIA_THEME_PATH . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -139,9 +139,9 @@ add_action( 'widgets_init', 'claudia_widgets_init' );
  */
 function claudia_scripts() {
 
-	wp_enqueue_style( 'normalize-css',THEME_PATH_URI . '/assets/css/normalize.min.css' ,array(),'8.0.1');
+	wp_enqueue_style( 'normalize-css',CLAUDIA_THEME_PATH_URI . '/assets/css/normalize.min.css' ,array(),'8.0.1');
 	
-	wp_enqueue_style( 'claudia-style', get_stylesheet_uri(), array('normalize-css'),THEME_VERSION );
+	wp_enqueue_style( 'claudia-style', get_stylesheet_uri(), array('normalize-css'), 'CLAUDIA_THEME_VERSION' );
 	wp_style_add_data ('claudia-style', 'rtl', 'replace');
 	
 	wp_enqueue_style( 'claudia-font-quicksand', 'https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap', array() );
@@ -150,11 +150,11 @@ function claudia_scripts() {
 	
 	wp_enqueue_style( 'claudia-font-fira-sans', 'https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,600|Quicksand:300,400,500,600,700&display=swap', array() );
 	
-	wp_enqueue_script( 'claudia-globals', THEME_PATH_URI . '/js/global.js', array('jquery'), '20151215', true );
+	wp_enqueue_script( 'claudia-globals', CLAUDIA_THEME_PATH_URI . '/js/global.js', array('jquery'), '20151215', true );
 
-	wp_localize_script( 'claudia-globals', 'data', array('theme_path' => THEME_PATH_URI) );
+	wp_localize_script( 'claudia-globals', 'claudia_data', array('theme_path' => CLAUDIA_THEME_PATH_URI) );
 	
-	wp_enqueue_script( 'claudia-skip-link-focus-fix', THEME_PATH_URI . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'claudia-skip-link-focus-fix', CLAUDIA_THEME_PATH_URI . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -165,4 +165,4 @@ add_action( 'wp_enqueue_scripts', 'claudia_scripts' );
 /**
  * includes.
  */
-require THEME_PATH . '/inc/includes.php';
+require CLAUDIA_THEME_PATH . '/inc/includes.php';

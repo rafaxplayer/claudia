@@ -38,7 +38,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 		<div class="header-wrap">
 			<div class="header-left">
 				<a id="search-open" class="claudia-button-search" href="#" >
-					<img src="<?php echo esc_url(get_template_directory_uri().'/assets/images/search.png');?>" alt="<?php _e('widgets button', 'claudia'); ?>"/>
+					<img src="<?php echo esc_url(get_template_directory_uri().'/assets/images/search.png');?>" alt="<?php esc_attr_e('widgets button', 'claudia'); ?>"/>
 				</a>
 			</div> 
 			<div class="site-branding">
