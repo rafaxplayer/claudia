@@ -35,10 +35,15 @@ First release.
 
 == Changelog ==
 
+= 1.3.1 - May 12 2020 =
+* Code bug fixes
+
+= 1.3 - Feb 28 2020 =
+* Code bug fixes
+
 = 1.1 - Feb 25 2020 =
 * Remove panel of widgets
 
-== Changelog ==
 = 1.0.4 - Feb 13 2020 =
 * Code bug fixes
 
@@ -59,3 +64,5 @@ First release.
 * Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
 * Header photography, Licence: Creative Commons Zero Source: https://pxhere.com/es/photo/2620
+* Icon Delete: Licencia CC 3.0 BY. https://www.flaticon.es/icono-gratis/borrar_565313?term=delete&page=1&position=89
+* Icon Search: Licencia CC 3.0 BY. https://www.flaticon.es/icono-gratis/buscando-lupa_61088
