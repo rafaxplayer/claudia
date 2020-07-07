@@ -4,8 +4,8 @@ Contributors: rafax
 Tags:  blog, custom-background, custom-logo, custom-menu, threaded-comments, translation-ready, editor-style, rtl-language-support, custom-header
 Requires at least: 5.2
 Requires PHP: 7.0
-Tested up to: 4.8
-Stable tag: 1.2
+Tested up to: 5.4.1
+Stable tag: 1.3.2
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DFZBWTFKLCWYQ&source=url
@@ -35,7 +35,10 @@ First release.
 
 == Changelog ==
 
-= 1.3.1 - May 12 2020 =
+= 1.3.2 - May 26 2020 =
+* Code bug fixes
+
+= 1.3.2 - May 12 2020 =
 * Code bug fixes
 
 = 1.3 - Feb 28 2020 =
